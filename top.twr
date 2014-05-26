@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc3s100e,tq144,-4 (PRODUCTION 1.27 2011-06-20)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data_in<0>     |verif<0>       |    4.792|
+data_in<1>     |verif<1>       |    4.792|
+data_in<2>     |verif<2>       |    4.822|
+data_in<3>     |verif<3>       |    4.835|
+data_in<4>     |verif<4>       |    4.862|
+data_in<5>     |verif<5>       |    4.792|
+data_in<6>     |verif<6>       |    4.815|
+data_in<7>     |verif<7>       |    4.817|
+data_in<8>     |verif<8>       |    4.807|
+data_in<9>     |verif<9>       |    4.815|
+data_in<10>    |verif<10>      |    4.853|
+data_in<11>    |verif<11>      |    4.815|
+data_in<12>    |verif<12>      |    4.818|
+data_in<13>    |verif<13>      |    4.853|
+data_in<14>    |verif<14>      |    4.815|
+data_in<15>    |verif<15>      |    4.853|
+data_in<16>    |verif<16>      |    4.837|
+data_in<17>    |verif<17>      |    4.792|
+data_in<18>    |verif<18>      |    4.835|
+data_in<19>    |verif<19>      |    4.862|
+data_in<20>    |verif<20>      |    4.853|
+data_in<21>    |verif<21>      |    4.822|
+data_in<22>    |verif<22>      |    4.853|
+data_in<23>    |verif<23>      |    4.807|
+data_in<24>    |verif<24>      |    4.853|
+data_in<25>    |verif<25>      |    4.815|
+data_in<26>    |verif<26>      |    4.807|
+data_in<27>    |verif<27>      |    4.822|
+data_in<28>    |verif<28>      |    4.837|
+data_in<29>    |verif<29>      |    4.853|
+data_in<30>    |verif<30>      |    4.853|
+data_in<31>    |verif<31>      |    4.807|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Apr 13 07:58:30 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 80 MB
+
+
+

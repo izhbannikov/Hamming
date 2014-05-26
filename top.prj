@@ -1,0 +1,2 @@
+vhdl work "hamming_module.vhd"
+vhdl work "top.vhd"
